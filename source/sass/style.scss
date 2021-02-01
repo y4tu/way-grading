@@ -1,0 +1,30 @@
+//GLOBAL
+@import "normalize";
+@import "variables";
+@import "global";
+@import "mixin";
+@import "visually-hidden";
+@import "blocks/container";
+
+//PAGE
+@import "blocks/page";
+
+//HEADER
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/title";
+@import "blocks/nav";
+
+//MAIN
+@import "blocks/main";
+@import "blocks/aside";
+@import "blocks/content";
+@import "blocks/list";
+@import "blocks/button";
+
+//FOOTER
+@import "blocks/footer";
+@import "blocks/developed";
+
+//POPUP
+@import "blocks/popup";
