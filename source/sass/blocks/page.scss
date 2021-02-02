@@ -1,0 +1,7 @@
+.page{
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+  width: 100%;
+  height: fit-content;
+  background: $bg-gray;
+}

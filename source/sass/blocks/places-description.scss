@@ -1,0 +1,20 @@
+.places-description__item {
+  padding: 0 0 50px;
+}
+
+.places-description__title {
+  font-family: $basic-font;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: $pd-title-gray;
+}
+
+.places-description__text {
+  font-family: $basic-font;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: -.47px;
+  color: $pd-text-gray;
+}

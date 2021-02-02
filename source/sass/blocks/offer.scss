@@ -1,0 +1,44 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  padding: 30px 36px 30px;
+  margin: 0;
+}
+
+.offer__title {
+  font-family: $basic-font;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 600;
+  letter-spacing: -1.27;
+  color: $pd-text-gray;
+  margin: 0 0 10px;
+}
+
+.offer__price {
+  font-family: $basic-font;
+  font-size: 25px;
+  line-height: 34px;
+  font-weight: 600;
+  color: $pd-text-gray;
+  margin: 0 0 11px;
+}
+
+.offer__text {
+  font-family: $basic-font;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $pd-title-gray;
+  border-bottom: 1px solid $pn-list-item-gray;
+  padding: 0 0 10px;
+  margin: 0 0 20px;
+}
+
+.offer__button {
+  margin: 0 0 -33px;
+}

@@ -1,0 +1,22 @@
+.advantages {
+  text-align: left;
+  margin: 0 0 30px;
+}
+
+.advantages__item {
+  text-align: left;
+  font-family: $basic-font;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: $pd-title-gray;
+  margin: 10px 0 0;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.advantages__svg {
+  fill: $basic-accent;
+}

@@ -1,0 +1,30 @@
+.contacts {
+  margin: 0 0 30px;
+  padding: 0 16px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $footer-border-gray;
+  padding: 0 0 20px;
+}
+
+.contacts__email {
+  font-family: $basic-font;
+  font-size: 14px;
+  line-height: 17.1px;
+  font-weight: 400;
+  color: $basic-accent;
+  text-decoration: underline;
+  padding: 0 0 15px;
+}
+
+.contacts__tel {
+  font-family: $basic-font;
+  font-size: 14px;
+  line-height: 17.1px;
+  font-weight: 400;
+  color: $basic-accent;
+  text-decoration: underline;
+}

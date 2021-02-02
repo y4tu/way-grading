@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  text-align: center;
+}
+
+.footer__wrapper {
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+  padding: 70px 0 25px;
+}
+
+.footer__title {
+  margin: 0 0 20px;
+  font-family: $basic-font;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  color: $prices-subtitle-dark;
+}

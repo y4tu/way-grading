@@ -1,0 +1,40 @@
+.prices {
+  width: 100%;
+  margin: 0 0 40px;
+}
+
+.prices__title {
+  margin: 0 0 20px;
+  font-family: $basic-font;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: $pd-title-gray;
+}
+
+.prices__text {
+  margin: 0 0 20px;
+  font-family: $basic-font;
+  font-size: 16px;
+  line-height: 27.2px;
+  font-weight: 400;
+  color: $pd-text-gray;
+  padding: 0 15px;
+}
+
+.prices__subtitle {
+  margin: 0 0 10px;
+  font-family: $basic-font;
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 500;
+  color: $prices-subtitle-dark;
+}
+ .prices__tel {
+   font-family: $basic-font;
+   font-size: 18px;
+   line-height: 32px;
+   font-weight: 400;
+   color: $basic-accent;
+   text-decoration: underline;
+ }

@@ -1,0 +1,29 @@
+.burger {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: -16.5px 0 -14.5px;
+  background-color: $basic-white;
+  border: none;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 23px;
+    right: 10px;
+    width: 30px;
+    height: 1px;
+    background: $special-gray;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}

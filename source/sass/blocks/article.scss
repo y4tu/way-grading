@@ -1,0 +1,15 @@
+.article__title {
+  position: relative;
+  width: calc(100% - 73px);
+  margin: -60px 37px 96px 36px;
+  padding: 16px 0;
+  font-family: $basic-font;
+  font-size: 24px;
+  line-height: 29.3px;
+  font-weight: 500;
+  letter-spacing: -.41px;
+  color: $basic-black;
+  background-color: $basic-white;
+  z-index: 1;
+}
+

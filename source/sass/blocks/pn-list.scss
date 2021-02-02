@@ -1,0 +1,23 @@
+.pn-list {
+  display: flex;
+  overflow: scroll;
+  border-bottom: 1px solid $pn-list-item-gray;
+  padding-bottom: 15px;
+}
+
+.pn-list__item {
+  margin: 0 0 0 100px;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.pn-list__link {
+  font-family: $basic-font;
+  font-size: 20px;
+  line-height: 24.4px;
+  font-weight: 500;
+  letter-spacing: -.41px;
+  color: $pn-list-item-gray;
+}

@@ -1,0 +1,59 @@
+.form {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+.form__title {
+  font-family: $basic-font;
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 600;
+  color: $prices-subtitle-dark;
+  margin: 0 0 20px;
+}
+
+.form__text {
+  font-family: $basic-font;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $prices-subtitle-dark;
+  margin: 0 0 20px;
+}
+
+.form__label {
+  &--required {
+    position: relative;
+
+    &::after {
+      content: "*";
+      position: absolute;
+      top: -9px;
+      left: 15px;
+      font-family: $special-font;
+      font-size: 17px;
+      line-height: 20.7px;
+      font-weight: 700;
+      color: $basic-accent;
+    }
+  }
+}
+
+.form__input {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 16px 15px 15px 51px;
+  font-family: $basic-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.1px;
+  border: 1px solid $pn-list-item-gray;
+  background: $basic-white;
+
+  &::placeholder {
+    font-family: $basic-font;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.1px;
+  }
+}

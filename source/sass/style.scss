@@ -5,26 +5,45 @@
 @import "mixin";
 @import "visually-hidden";
 @import "blocks/container";
+@import "blocks/list";
+@import "blocks/button";
 
 //PAGE
 @import "blocks/page";
 
 //HEADER
 @import "blocks/header";
+@import "blocks/menu";
 @import "blocks/logo";
-@import "blocks/title";
+@import "blocks/burger";
 @import "blocks/nav";
 
 //MAIN
 @import "blocks/main";
-@import "blocks/aside";
-@import "blocks/content";
-@import "blocks/list";
-@import "blocks/button";
+@import "blocks/promo";
+@import "blocks/title";
+@import "blocks/places";
+@import "blocks/info";
+@import "blocks/article";
+@import "blocks/pn-list";
+@import "blocks/places-description";
+@import "blocks/reviews";
+@import "blocks/offers";
+@import "blocks/prices";
+@import "blocks/offers-list";
+@import "blocks/ol-item";
+@import "blocks/offer";
+@import "blocks/advantages";
+@import "blocks/questions";
+@import "blocks/form";
 
 //FOOTER
 @import "blocks/footer";
-@import "blocks/developed";
+@import "blocks/future-trips";
+@import "blocks/ft-list";
+@import "blocks/ft-sublist";
+@import "blocks/contacts";
+@import "blocks/corporate";
 
 //POPUP
-@import "blocks/popup";
+//@import "blocks/popup";

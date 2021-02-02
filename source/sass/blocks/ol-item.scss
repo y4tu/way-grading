@@ -1,0 +1,37 @@
+.ol-item {
+  display: flex;
+  width: 100%;
+  border: 1px solid $pn-list-item-gray;
+  border-radius: 8px;
+  margin: 0 0 30px;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $basic-accent;
+  }
+
+  &:hover .offer,
+  &:focus .offer {
+    border: 2px solid $basic-accent;
+  }
+
+  &:hover .offer__text,
+  &:focus .offer__text {
+    border-bottom: 1px solid $special-accent;
+  }
+
+  &:hover .advantages__svg,
+  &:focus .advantages__svg {
+    fill: $prices-subtitle-dark;
+  }
+
+  &:hover .offer__title,
+  &:focus .offer__title {
+    color: $basic-accent;
+  }
+
+  &:hover .offer__price,
+  &:focus .offer__price {
+    color: $basic-accent;
+  }
+}

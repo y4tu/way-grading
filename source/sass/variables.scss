@@ -1,9 +1,24 @@
+$basic-accent: #fe7865;
+$special-accent: rgba(254, 120, 101, .5);
+$chosen-accent: #f17d4b;
 $basic-white: #ffffff;
-$basic-black: #000000;
-$basic-gray: #cdcdcd;
-$special-gray: #666666;
+$basic-black: #2c2e3f;
+$nav-link-black: #48494d;
+$bg-gray: #e5e5e5;
+$special-gray: #d0d0d1;
+$nav-item-gray: #fbf8f8;
+$pn-list-item-gray: rgba(44, 46, 63, .3);
+$pd-text-gray: rgba(44, 46, 63, .7);
+$arrow-gray: rgba(44, 46, 63, .5);
+$pd-title-gray: #2c2e3f;
+$prices-subtitle-dark: #141517;
+$prices-subtitle-dark-transparent: rgba(20, 21, 23, .5);
 $transparent-black: rgba(0, 0, 0, .7);
+$footer-border-gray: #d7d9df;
+
+$basic-font: "Montserrat", "Arial", sans-serif;
+$special-font: "Proxima Nova", "Arial", sans-serif;
 
 $screen-mobile: "min-width: 320px";
 $screen-tablet: "min-width: 768px";
-$screen-desktop: "min-width: 1100px";
+$screen-desktop: "min-width: 1024px";

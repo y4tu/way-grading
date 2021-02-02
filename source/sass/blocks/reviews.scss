@@ -1,0 +1,73 @@
+.reviews {
+  display: flex;
+  width: calc(100% + 32px);
+  height: fit-content;
+  margin: 0 -16px 111px;
+  padding: 50px 26px 0;
+  background: $bg-gray url("/img/greece-promo-mobile.jpg") center /cover no-repeat;
+}
+
+.reviews__wrapper {
+  width: 268px;
+  margin: 0 auto -66px;
+  padding: 30px 20px 34px;
+  background: $basic-white;
+}
+
+.reviews__title {
+  position: relative;
+  font-family: $basic-font;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+  color: $pd-title-gray;
+  padding: 0 0 10px;
+  margin: 0 0 20px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 68px;
+    height: 1px;
+    background: $basic-accent;
+  }
+}
+
+.reviews__text {
+  font-family: $basic-font;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: -.41px;
+  color: $pd-text-gray;
+  margin: 0 0 68px;
+}
+
+.reviews__user {
+  display: block;
+  position: relative;
+  font-family: $basic-font;
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 500;
+  letter-spacing: -.47px;
+  color: #2c2e3f;
+  padding: 48px 0 0;
+
+  &::before {
+    content: "";
+    width: 38px;
+    height: 37px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background: $bg-gray url("/img/vlada-avatar.jpg") center /contain no-repeat;
+  }
+}
