@@ -18,8 +18,17 @@
   font-weight: 600;
   background: $nav-item-gray;
 
+  @media (#{$screen-tablet}) {
+    width: calc(100% + 42px);
+    margin: 0 -21px 30px;
+  }
+
   &:last-child {
     margin: 0 -16px 0 -16px;
+
+    @media (#{$screen-tablet}) {
+      margin: 0 -21px;
+    }
   }
 
   &::before {
