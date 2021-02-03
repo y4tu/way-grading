@@ -1,5 +1,11 @@
 .promo {
-  width: 100%;
+  width: calc(100% + 32px);
+  margin: 0 -16px;
+
+  @media (#{$screen-tablet}) {
+    padding: 0 0 94px;
+    margin: 0 -16px 80px;
+  }
 }
 
 .promo__wrapper {
@@ -8,6 +14,12 @@
   margin: 0 -16px;
   padding: 81px 20px 82px;
   background: $bg-gray url("/img/greece-promo-mobile.jpg") center /cover no-repeat;
+
+  @media (#{$screen-tablet}) {
+    height: 344px;
+    padding: 60px 20px 82px;
+    background: $bg-gray url("/img/greece-promo-tablet.jpg") center /cover no-repeat;
+  }
 }
 
 .promo__title {
@@ -18,10 +30,16 @@
   font-weight: 600;
   text-align: center;
   color: $basic-white;
+
+  @media (#{$screen-tablet}) {
+    width: 100%;
+    font-size: 30px;
+    line-height: 45px;
+  }
 }
 
 .promo__text {
-  padding: 20px 0;
+  padding: 20px 24px;
   font-family: $basic-font;
   font-size: 16px;
   line-height: 27px;
@@ -29,12 +47,26 @@
   letter-spacing: -.47px;
   text-align: center;
   color: $basic-black;
+
+  @media (#{$screen-tablet}) {
+    width: 398px;
+    font-size: 16px;
+    line-height: 27.2px;
+    letter-spacing: -.47px;
+    color: $basic-white;
+    margin: -240px auto 15px;
+    padding: 0;
+  }
 }
 
 .promo__button {
   position: relative;
   text-align: left;
   margin: 0 0 108px;
+
+  @media (#{$screen-tablet}) {
+    margin: 0;
+  }
 
   &::before,
   &::after {

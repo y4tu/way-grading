@@ -10,6 +10,12 @@
   font-weight: 600;
   color: $prices-subtitle-dark;
   margin: 0 0 20px;
+
+  &--questions {
+    @media (#{$screen-tablet}) {
+      margin: 0 0 15px;
+    }
+  }
 }
 
 .form__text {
@@ -19,6 +25,10 @@
   font-weight: 400;
   color: $prices-subtitle-dark;
   margin: 0 0 20px;
+
+  @media (#{$screen-tablet}) {
+    margin: 0 0 24px;
+  }
 }
 
 .form__label {
@@ -55,5 +65,19 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17.1px;
+  }
+
+  &--questions {
+    @media (#{$screen-tablet}) {
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+.form__tel {
+  &--questions {
+    @media (#{$screen-tablet}) {
+      margin: 0 10px 20px 0;
+    }
   }
 }

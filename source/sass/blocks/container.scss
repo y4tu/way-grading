@@ -8,6 +8,8 @@
 
   @media (#{$screen-tablet}) {
     width: calc(100% - 20%);
+    min-width: 768px;
+    padding: 0 21px;
     margin: 0 auto;
   }
 

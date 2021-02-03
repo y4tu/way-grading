@@ -1,0 +1,7 @@
+.places-nav {
+  margin: 0 0 24px;
+
+  @media (#{$screen-tablet}) {
+    margin: 0 0 33px;
+  }
+}

@@ -1,4 +1,8 @@
 .offers {
   width: 100%;
   margin: 0 0 50px;
+
+  @media (#{$screen-tablet}) {
+    margin: 0 auto 50px;
+  }
 }

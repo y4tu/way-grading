@@ -5,6 +5,10 @@
   border-radius: 8px;
   margin: 0 0 30px;
 
+  @media (#{$screen-tablet}) {
+    width: 288px;
+  }
+
   &:hover,
   &:focus {
     border: 1px solid $basic-accent;

@@ -1,6 +1,10 @@
 .advantages {
   text-align: left;
   margin: 0 0 30px;
+
+  &--complex {
+    margin: 0 0 40px;
+  }
 }
 
 .advantages__item {

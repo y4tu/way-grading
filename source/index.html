@@ -53,13 +53,13 @@
           Путешествие по Европе
         </h2>
       </div>
-      <div class="promo__text">
+      <p class="promo__text">
         В этом туре вы откроете для себя Европу в новом свете. Вас ждет: море, горы, а также потрясающая красота
         природы.
-      </div>
-      <button type="button" class="promo__button promo__button--look button">
+      </p>
+      <a href="#places-nav" type="button" class="promo__button promo__button--look button">
         Смотреть тур
-      </button>
+      </a>
     </section>
 
     <section class="main__places places" id="places">
@@ -73,64 +73,64 @@
       </div>
       <ul class="places__list places-list list">
         <li class="places-list__item pl-item">
-          <article class="pl-item__wrapper article">
+          <a href="#greece" class="pl-item__wrapper article">
             <img class="article__img" src="../img/greece-mobile.jpg" alt="Изображение Греции" width="288" height="425">
             <h3 class="article__title">Греция</h3>
-          </article>
+          </a>
         </li>
         <li class="places-list__item pl-item">
-          <article class="pl-item__wrapper article">
+          <a href="#albania" class="pl-item__wrapper article">
             <img class="article__img" src="../img/albania-mobile.jpg" alt="Изображение Албании" width="288"
                  height="425">
             <h3 class="article__title">Албания</h3>
-          </article>
+          </a>
         </li>
         <li class="places-list__item pl-item">
-          <article class="pl-item__wrapper article">
+          <a href="#macedonia" class="pl-item__wrapper article">
             <img class="article__img" src="../img/maсedonia-mobile.jpg" alt="Изображение Македонии" width="288"
                  height="425">
             <h3 class="article__title">Македония</h3>
-          </article>
+          </a>
         </li>
         <li class="places-list__item pl-item">
-          <article class="pl-item__wrapper article">
+          <a href="#montenegro" class="pl-item__wrapper article">
             <img class="article__img" src="../img/montenegro-mobile.jpg" alt="Изображение Черногории" width="288"
                  height="425">
             <h3 class="article__title">Черногория</h3>
-          </article>
+          </a>
         </li>
         <li class="places-list__item pl-item">
-          <article class="pl-item__wrapper article">
+          <a href="#croatia" class="pl-item__wrapper article">
             <img class="article__img" src="../img/croatia-mobile.jpg" alt="Изображение Хорватии" width="288"
                  height="425">
             <h3 class="article__title">Хорватия</h3>
-          </article>
+          </a>
         </li>
       </ul>
       <nav class="places__nav places-nav">
-        <ul class="places-nav__list pn-list list">
+        <ul class="places-nav__list pn-list list" id="places-nav">
           <li class="pn-list__item">
-            <a href="#" class="pn-list__link">
+            <a href="#" class="pn-list__link" id="greece">
               Греция
             </a>
           </li>
           <li class="pn-list__item">
-            <a href="#" class="pn-list__link">
+            <a href="#" class="pn-list__link" id="albania">
               Албания
             </a>
           </li>
           <li class="pn-list__item">
-            <a href="#" class="pn-list__link">
+            <a href="#" class="pn-list__link" id="macedonia">
               Македония
             </a>
           </li>
           <li class="pn-list__item">
-            <a href="#" class="pn-list__link">
+            <a href="#" class="pn-list__link" id="montenegro">
               Черногория
             </a>
           </li>
           <li class="pn-list__item">
-            <a href="#" class="pn-list__link">
+            <a href="#" class="pn-list__link" id="croatia">
               Хорватия
             </a>
           </li>
@@ -138,7 +138,7 @@
       </nav>
       <ul class="places__description places-description list">
         <li class="places-description__item" id="pd-item-greece">
-          <h3 class="places-description__title">
+          <h3 class="places-description__title title">
             Греция
           </h3>
           <p class="places-description__text">
@@ -207,16 +207,74 @@
 
     <section class="main__reviews reviews">
       <div class="reviews__wrapper">
-        <h2 class="reviews__title title">
-          Отзывы
-        </h2>
-        <p class="reviews__text">Метеоры в Греции можно сравнить разве что с Монсерратт в Испании. Такие же
-          высоченные скалы. Но здесь потрясает масштаб. Огромная территория, высоко в горах. Ощущение такое, как будто
-          стоишь на краю света!
-        </p>
-        <a href="#" class="reviews__user">
-          Влада Голицина
-        </a>
+        <ul class="reviews__list reviews-list list">
+          <li class="reviews-list__item">
+            <h2 class="reviews__title title">
+              Отзывы
+            </h2>
+            <p class="reviews__text">
+              Метеоры в Греции можно сравнить разве что с Монсерратт в Испании. Такие же
+              высоченные скалы. Но здесь потрясает масштаб. Огромная территория, высоко в горах. Ощущение такое, как
+              будто
+              стоишь на краю света!
+            </p>
+            <a href="#" class="reviews__user">
+              <img src="/img/vlada-avatar.jpg" alt="Аватар Влады" width="64" height="82" class="reviews__avatar">
+              Влада Голицина
+            </a>
+          </li>
+          <li class="reviews-list__item visually-hidden">
+            <h2 class="reviews__title title">
+              Отзывы
+            </h2>
+            <p class="reviews__text">
+              Замечательный курорт, обязательно стоит посетить. В следующий раз возьму с собой сестру, чтобы тоже смогла
+              вкусить все красоты природы :)
+            </p>
+            <a href="#" class="reviews__user">
+              <img src="/img/vlada-avatar.jpg" alt="Аватар Маришки" width="52" height="67" class="reviews__avatar">
+              Маришка
+            </a>
+          </li>
+          <li class="reviews-list__item visually-hidden">
+            <h2 class="reviews__title title">
+              Отзывы
+            </h2>
+            <p class="reviews__text">
+              Я бы сказал необычное старое здание. В архитектуре я не разбираюсь, но подъем в гору был очень веселым так
+              как люди оказались легкими и заводными. Красота природы впечатлила, особенно после долгого пути в гору.
+            </p>
+            <a href="#" class="reviews__user">
+              <img src="/img/vlada-avatar.jpg" alt="Аватар Михаила" width="64" height="82" class="reviews__avatar">
+              Михаил Кузьмин
+            </a>
+          </li>
+          <li class="reviews-list__item visually-hidden">
+            <h2 class="reviews__title title">
+              Отзывы
+            </h2>
+            <p class="reviews__text">
+              Неописуемой красоты каньон! Ничего прекраснее в жизни не видела, разве что в фильмах :) Всем советую
+            </p>
+            <a href="#" class="reviews__user">
+              <img src="/img/vlada-avatar.jpg" alt="Аватар Анастасии" width="64" height="80" class="reviews__avatar">
+              Анастасия Мей
+            </a>
+          </li>
+          <li class="reviews-list__item visually-hidden">
+            <h2 class="reviews__title title">
+              Отзывы
+            </h2>
+            <p class="reviews__text">
+              Мы поехали всей семьей, я, моя жена и родители. Пещера просто незабываема! А то, что все это формировалось
+              тысячелетиями, мега необычно. Первоначально даже не верилось, но натур ни с чем не спутать по итогу :)
+            </p>
+            <a href="#" class="reviews__user">
+              <img src="/img/vlada-avatar.jpg" alt="Аватар Владимира" width="64" height="42" class="reviews__avatar">
+              Владимир Мулицин
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -248,7 +306,7 @@
             <p class="offer__text">
               Ознакомьтесь с перечнем того, что входит в данный пакет
             </p>
-            <ul class="offer__advantages advantages list">
+            <ul class="offer__advantages advantages advantages--complex list">
               <li class="advantages__item">
                 <svg width="14" height="12" class="advantages__svg">
                   <use xlink:href="img/sprite.svg#icon-check"></use>
@@ -333,22 +391,22 @@
 
     <section class="main__questions questions">
       <form action="" method="post" class="questions__form form">
-        <h2 class="form__title title">
+        <h2 class="form__title title title--questions">
           У Вас остались вопросы?
         </h2>
-        <p class="form__text">
+        <p class="form__text form__text--questions">
           Оставьте свой номер или e-mail и мы свяжемся с Вами
         </p>
-        <label class="form__label form__label--required">
-          <input class="form__input form__tel tel" type="tel" name="questions-tel"
+        <label class="form__label form__label--required form__label--questions">
+          <input class="form__input form__input--questions form__tel--questions tel" type="tel" name="questions-tel"
                  id="questions-tel"
                  placeholder="+7 Введите 10 цифр номера">
         </label>
-        <label class="form__label">
-          <input class="form__input form__email email" type="email" name="questions-email"
+        <label class="form__label form__label--questions">
+          <input class="form__input form__input--questions form__email email" type="email" name="questions-email"
                  id="questions-email" placeholder="E-mail">
         </label>
-        <button type="submit" class="form__button button">
+        <button type="submit" class="form__button form__button--questions button">
           Отправить
         </button>
       </form>
@@ -428,14 +486,16 @@
           Наши контакты
         </h2>
         <a href="mailto:example@yandex.ru" class="contacts__email">
-          <svg width="44" height="17" class="logo__svg">
+          <svg width="44" height="17" class="contacts__svg">
             <use xlink:href="img/sprite.svg#icon-mail"></use>
-          </svg>Почта
+          </svg>
+          Почта
         </a>
         <a href="tel:+749978468446" class="contacts__tel">
-          <svg width="44" height="17" class="logo__svg">
+          <svg width="44" height="17" class="contacts__svg">
             <use xlink:href="img/sprite.svg#icon-phone"></use>
-          </svg>+7 (499) -784-684-46
+          </svg>
+          +7 (499) -784-684-46
         </a>
       </div>
     </section>
@@ -450,6 +510,31 @@
     </section>
   </div>
 </footer>
+
+<section class="page__popup popup visually-hidden">
+  <div class="popup__wrapper container">
+    <div class="popup__inner">
+      <button class="popup__button burger" type="button"></button>
+      <form action="" method="post" class="popup__form popup-form form">
+        <h2 class="popup-form__title form__title title">
+          Купить тур
+        </h2>
+        <label class="popup-form__label form__label form__label--required">
+          <input class="popup-form__input form__input form__tel tel" type="tel" name="popup-tel"
+                 id="popup-tel"
+                 placeholder="+7 Введите 10 цифр номера">
+        </label>
+        <label class="popup-form__labe form__label">
+          <input class="popup-form__input form__input form__email email" type="email" name="popup-email"
+                 id="popup-email" placeholder="E-mail">
+        </label>
+        <button type="submit" class="popup-form__button form__button button">
+          Отправить
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
 
 </body>
 

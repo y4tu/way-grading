@@ -9,4 +9,9 @@
   line-height: 36px;
   font-weight: 600;
   color: $basic-black;
+
+  @media (#{$screen-tablet}) {
+    font-size: 30px;
+    line-height: 45px;
+  }
 }

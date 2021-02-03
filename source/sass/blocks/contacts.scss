@@ -1,6 +1,15 @@
 .contacts {
   margin: 0 0 30px;
   padding: 0 16px;
+
+  @media (#{$screen-tablet}) {
+    grid-row: 1;
+    grid-column: 2;
+    width: 352px;
+    text-align: left;
+    margin: 0 0 30px;
+    padding: 0 0 0 50px;
+  }
 }
 
 .contacts__wrapper {
@@ -8,6 +17,11 @@
   flex-direction: column;
   border-bottom: 1px solid $footer-border-gray;
   padding: 0 0 20px;
+
+  @media (#{$screen-tablet}) {
+    padding: 0;
+    border: none;
+  }
 }
 
 .contacts__email {

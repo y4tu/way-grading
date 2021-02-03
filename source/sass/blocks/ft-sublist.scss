@@ -4,4 +4,15 @@
   line-height: 17.1px;
   font-weight: 400;
   color: $prices-subtitle-dark-transparent;
+
+  @media (#{$screen-tablet}) {
+    width: min-content;
+  }
+}
+
+.ft-sublist__item {
+  @media (#{$screen-tablet}) {
+    width: max-content;
+    margin: 0 0 10px;
+  }
 }

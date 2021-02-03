@@ -7,6 +7,11 @@
   display: grid;
   grid-template-rows: min-content min-content min-content;
   padding: 70px 0 25px;
+
+  @media (#{$screen-tablet}) {
+    //grid-template-rows: min-content min-content;
+    grid-template-columns: 1fr max-content;
+  }
 }
 
 .footer__title {

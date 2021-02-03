@@ -12,8 +12,13 @@
   color: $basic-white;
   border: none;
   outline: none;
+  cursor: pointer;
 
   &:active {
     background: $chosen-accent;
+  }
+
+  @media (#{$screen-tablet}) {
+    width: 250px;
   }
 }

@@ -11,5 +11,9 @@
   color: $basic-black;
   background-color: $basic-white;
   z-index: 1;
+
+  @media (#{$screen-tablet}) {
+    margin: -60px 37px 0 36px;
+  }
 }
 

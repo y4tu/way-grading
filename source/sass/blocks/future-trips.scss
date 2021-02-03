@@ -1,5 +1,14 @@
 .future-trips {
   padding: 0 16px;
+
+  @media (#{$screen-tablet}) {
+    grid-row: 1;
+    grid-column: 1;
+    padding: 0 0 0 21px;
+    margin: 0 0 30px;
+    border-right: 1px solid $footer-border-gray;
+    height: min-content;
+  }
 }
 
 .future-trips__title {

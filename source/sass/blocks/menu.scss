@@ -5,6 +5,12 @@
   align-items: center;
   padding: 16.5px 0 14.5px 16px;
   margin: 0 -16px;
+
+  @media (#{$screen-tablet}) {
+    width: calc(100% + 42px);
+    padding: 18.5px 0 14.5px 21px;
+    margin: 0 -21px;
+  }
 }
 
 .menu__logo {

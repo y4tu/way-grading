@@ -23,6 +23,8 @@
 @import "blocks/promo";
 @import "blocks/title";
 @import "blocks/places";
+@import "blocks/places-list";
+@import "blocks/places-nav";
 @import "blocks/info";
 @import "blocks/article";
 @import "blocks/pn-list";
@@ -46,4 +48,5 @@
 @import "blocks/corporate";
 
 //POPUP
-//@import "blocks/popup";
+@import "blocks/popup";
+@import "blocks/popup-form";

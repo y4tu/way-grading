@@ -10,4 +10,9 @@
   font-weight: 400;
   letter-spacing: -.47px;
   color: $basic-black;
+
+  @media (#{$screen-tablet}) {
+    width: 343px;
+    margin: 0 auto 40px;
+  }
 }

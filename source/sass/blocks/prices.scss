@@ -10,6 +10,11 @@
   line-height: 36px;
   font-weight: 600;
   color: $pd-title-gray;
+
+  @media (#{$screen-tablet}) {
+    font-size: 30px;
+    line-height: 45px;
+  }
 }
 
 .prices__text {
@@ -20,6 +25,11 @@
   font-weight: 400;
   color: $pd-text-gray;
   padding: 0 15px;
+
+  @media (#{$screen-tablet}) {
+    width: 726px;
+    margin: 0 0 30px;
+  }
 }
 
 .prices__subtitle {

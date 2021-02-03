@@ -6,6 +6,13 @@
   margin: -16.5px 0 -14.5px;
   background-color: $basic-white;
   border: none;
+  cursor: pointer;
+  outline: none;
+
+  @media (#{$screen-tablet}) {
+    height: 52px;
+    margin: -18.5px 0 -14.5px;
+  }
 
   &::before,
   &::after {
@@ -25,5 +32,16 @@
 
   &::after {
     transform: rotate(-45deg);
+  }
+
+  @media (#{$screen-tablet}) {
+    width: 72px;
+    background-color: $basic-accent;
+
+    &::before,
+    &::after {
+      top: 23px;
+      right: 20px;
+    }
   }
 }

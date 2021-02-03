@@ -41,4 +41,8 @@
 
 .offer__button {
   margin: 0 0 -33px;
+
+  @media (#{$screen-tablet}) {
+    width: calc(100% + 78px);
+  }
 }

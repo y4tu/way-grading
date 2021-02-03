@@ -6,6 +6,15 @@
   border-bottom: 1px solid $footer-border-gray;
   padding: 0 0 20px;
   margin: 0 0 30px;
+
+  @media (#{$screen-tablet}) {
+    grid-template-areas: "1 2 3";
+    border: none;
+    grid-column-gap: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .ft-list__item {
@@ -13,15 +22,30 @@
   grid-row: 1;
   grid-column: 2/3;
 
+  @media (#{$screen-tablet}) {
+    grid-row: unset;
+    grid-column: unset;
+  }
+
   &:first-child {
     grid-area: 1;
     grid-row: 1;
     grid-column: 1/2;
+
+    @media (#{$screen-tablet}) {
+      grid-row: unset;
+      grid-column: unset;
+    }
   }
 
   &:last-child {
     grid-area: 3;
     grid-row: 2;
     grid-column: 1/3;
+
+    @media (#{$screen-tablet}) {
+      grid-row: unset;
+      grid-column: unset;
+    }
   }
 }
